@@ -9,5 +9,7 @@
         case 2:
             header("Location: AcerSwift3.html?penawaran=$nego");
             break;
+        default:
+            header("Location: .");
     }
 ?>

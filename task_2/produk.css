@@ -1,0 +1,32 @@
+* {
+    margin : 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background: #FFFFFF;
+    color: black;
+}
+
+table{
+    background-color: #a8fcb2;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 350px;
+}
+tr{
+    padding: 10px;
+}
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
