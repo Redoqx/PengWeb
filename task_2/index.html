@@ -12,7 +12,20 @@
         Hanya menjual barang terbaik
     </h1>
     <form method="get" action="kaMa.php">
-        
+        <div>
+            <select name="idProduct" id="idProduct">
+                <option selected disabled>Penawaran Kami</option>
+                <option value="1">Lenovo Ideapad 110-AST | 3,5 Juta</option>
+                <option value="2">Acer Swift 3 Infinity 3 | 9,8 Juta</option>
+            </select>
+        </div>
+        <div>
+            <label for="nego">Penawaran Anda</label>
+            <input type="text" id="nego" name="nego"/>
+        </div>
+        <div>
+            <input type="submit" id="submit">
+        </div>
     </form>
 </body>
 </html>
