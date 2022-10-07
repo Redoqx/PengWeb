@@ -8,24 +8,29 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <h1>
-        Hanya menjual barang terbaik
-    </h1>
-    <form method="get" action="kaMa.php">
-        <div>
-            <select name="idProduct" id="idProduct">
-                <option selected disabled>Penawaran Kami</option>
-                <option value="1">Lenovo Ideapad 110-AST | 3,5 Juta</option>
-                <option value="2">Acer Swift 3 Infinity 3 | 9,8 Juta</option>
-            </select>
+    <div class="wrapper">
+        <h1>
+            Hanya menjual barang terbaik
+        </h1>
+        <div class="container">
+            <form method="get" action="kaMa.php">
+                <div class="select">
+                    <select name="idProduct" id="idProduct">
+                        <option selected disabled>Penawaran Kami</option>
+                        <option value="1">Lenovo Ideapad 110-AST | 3,5 Juta</option>
+                        <option value="2">Acer Swift 3 Infinity 3 | 9,8 Juta</option>
+                    </select>
+                </div>
+                <div class="textinput">
+                    <label for="nego">Penawaran Anda</label>
+                    <br />
+                    <input type="text" id="nego" name="nego"/>
+                </div>
+                <div>
+                    <input type="submit" id="submit">
+                </div>
+            </form>
         </div>
-        <div>
-            <label for="nego">Penawaran Anda</label>
-            <input type="text" id="nego" name="nego"/>
-        </div>
-        <div>
-            <input type="submit" id="submit">
-        </div>
-    </form>
+    </div>
 </body>
 </html>
